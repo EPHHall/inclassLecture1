@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C44C31DF24F57DFC00C2A199 /* inclassLecture1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = inclassLecture1.entitlements; sourceTree = "<group>"; };
 		C4D640DC24F57BE80096A24D /* inclassLecture1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inclassLecture1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D640DF24F57BE80096A24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4D640E124F57BE80096A24D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 		C4D640DE24F57BE80096A24D /* inclassLecture1 */ = {
 			isa = PBXGroup;
 			children = (
+				C44C31DF24F57DFC00C2A199 /* inclassLecture1.entitlements */,
 				C4D640DF24F57BE80096A24D /* AppDelegate.swift */,
 				C4D640E124F57BE80096A24D /* SceneDelegate.swift */,
 				C4D640E324F57BE80096A24D /* ViewController.swift */,
@@ -434,9 +436,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = inclassLecture1/inclassLecture1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Y77HF4F3Q;
 				INFOPLIST_FILE = inclassLecture1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +456,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = inclassLecture1/inclassLecture1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Y77HF4F3Q;
 				INFOPLIST_FILE = inclassLecture1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

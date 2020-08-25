@@ -13,8 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        var myString = 5
+        let otherString = "World"
+        
+        print(myString)
+        
+        myString = otherString
     }
 
-
+    @IBAction func myButton(_ sender: Any) {
+      print("This is a Git tutorial")
+    }
 }
-
