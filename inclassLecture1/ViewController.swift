@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         print(newArray2)
         print("count of newArray2 is \(newArray2.count)")
         
-        
+        var ourFirstDictionary: [String: String] = ["newKey": "newValue"]//Dictionary is a key value pair that lets you hash. The part of the dictionary that lets you hash is the key.
     }
 
     @IBAction func myButton(_ sender: Any) {
